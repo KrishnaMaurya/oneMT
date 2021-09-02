@@ -3,10 +3,10 @@ import Dropdown from './Dropdown';
 import Convert from './Convert';
 
 const options = [
-  {
-    label: 'Telugu',
-    value: 'tel',
-  },
+  // {
+  //   label: 'Hindi',
+  //   value: 'hi',
+  // },
   {
     label: 'Marathi',
     value: 'mr'
@@ -22,7 +22,7 @@ const Translate = () => {
      
       <div className="ui grid form">
         <div className="field fourteen wide centered column ">
-          <label><h2>Enter Text</h2></label>
+          <label><h2>Enter English Text</h2></label>
           <textarea rows="3" value={text} onChange={(e) => setText(e.target.value)}  />
         </div>
       </div>

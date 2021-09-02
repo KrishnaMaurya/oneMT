@@ -1,42 +1,25 @@
-import React, { useState } from "react";
-import Accordion from "./components/Accordion";
-import Search from "./components/Search";
-import Dropdown from "./components/Dropdown";
+import React from "react";
 import Translate from "./components/Translate";
+//import Radiobutton from "./components/Radiobutton";
 
-const items = [
-  {
-    title: "What is React?",
-    content: "React is a front end javascript framework",
-  },
-  {
-    title: "Why use React?",
-    content: "React is a favorite JS library among engineers",
-  },
-  {
-    title: "How do you use React?",
-    content: "You use React by creating components",
-  },
-];
-
-const options = [
-  {
-    label: "The Color Red",
-    value: "red",
-  },
-  {
-    label: "The Color Green",
-    value: "green",
-  },
-  {
-    label: "A Shade of Blue",
-    value: "blue",
-  },
-];
-
+// const radiooption = [
+//   {
+//     label: "OneMT : IIIT Hyd",
+//     value:"onemt"
+//   },
+//   {
+//     label: "EN-IL MT : IITB",
+//     value: "enilmt"
+//   },
+//   {
+//     label: "LokSabha MT : CDAC P",
+//     value: "cdacmt"
+//   }
+// ]
 const App = () => {
   return (
     <div>
+      {/* <Radiobutton option={radiooption}/> */}
       <Translate />
     </div>
   );
